@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 12.5vh;
+    display: flex;
+    justify-content: end;
+    font-size: 13px;
+    padding:14px 18px
+}
+.nav{
+    display: flex;
+    justify-content: space-between 
+}
+
+
+.link{
+  position: relative;
+  bottom: 11px;
+  color: black !important;
+}
+.images{
+    padding-right:24px ;
+    padding-left: 11.5px;
+   
+}
+.link:hover{
+    text-decoration: underline;
+
+}
+
+.menu{
+   
+    padding-bottom: 5px;
+    padding-right: 18px;
+
+}
+.menu-ga{
+   
+    padding-top: 5px;
+    padding-right: 22px;
+
+}
+.user{
+    border-radius: 50%;
+}
+.row{
+    display: flex;
+}
+.visit{
+    color: #4d90fa!important;
+}
+main{
+    min-height: 75vh;
+}
+.center {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin-left:  38.4rem;
+    padding-bottom: 10rem;
+ 
+}
+
+
+.main-gImages{
+    width: auto;
+    margin: 0;
+    padding-bottom: 245px;
+}
+.flex-logo{
+    display: flex;
+
+    
+}
+.images-gImages{
+    position: relative;
+    top: 126px;
+    right: 57px;
+    color:#4285f4
+ 
+}
+.logo-gAdvanced{
+   padding: 22px 20px
+}
+
+.user-menu{
+    display: 
+    flex;
+    padding:14px 18px
+    
+}
+.logo-gImages{
+    margin-left: 52px;
+    margin-top:51px;
+}
+
+.logo{
+    padding-top: 5px;
+  
+}
+
+.text-red{
+    color: #d93025;
+    font-size: 20px;
+    padding:20px 45px;
+    padding-bottom: 26px;
+    border-bottom:.1px solid #ebebeb;
+    
+}
+
+.form-requirements{
+    margin: 46px 2% 0 45px;
+    font-size: 13px; 
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7px;
+}
+.form-row{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify !important;
+    width:51.4%
+ 
+
+    
+}
+.margin{
+    margin-top: 6.5px;
+}
+.form-input{
+    outline: none !important;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+ width: 37vw;
+ margin-top: 12px;
+ min-height: 30px;
+ 
+
+}
+.form-input:hover{
+    border: 1px solid #6c98e4;
+    border-top: 1px solid #6c98e4;
+}
+.lupa{
+    position: absolute;
+    left: 490px;
+    top:290px;
+    width: 20px;
+}
+.mic{
+    position: absolute;
+    left: 1020px;
+    top:290px
+}
+
+.mic-gImages{
+    top:290px;
+    left:935px
+
+}
+.camera{
+    top:290px;
+    left:975px
+}
+.lupaI{
+    top:290px;
+    left:63.6rem
+}
+.text{
+    text-align: justify !important;
+    padding-top: 20px;
+    
+   
+  
+}
+.search{
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+}
+.search-input{
+    height: 45.8px;
+    width: 584px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none !important;
+    padding:0px 45px;
+}
+.search-input:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+.icon{
+    position: absolute;
+}
+.submit{
+    background-color: #f8f9fa;
+    margin: 8px 4px;
+    padding: 0 16px;
+    font-size: 14px;
+    height: 36px;
+    border: none;
+    width: auto;
+    color: rgba(0, 0, 0, 0.845);
+    border-radius: 4px;
+}
+.submit:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    cursor:pointer;
+    border: 1px solid #dadce0;
+}
+
+.end{
+    display: flex;
+    justify-content: end;
+    width: 51%;
+}
+.button{
+    background-color: #4d90fa;
+    background: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border:1px solid #3079ed;
+    padding: 8px 12px;
+    font-weight: bold;
+    font-size: 11px;
+    color: #fff;
+    border-radius: 2px;
+    margin-top: 20px;
+
+}
+.button:hover{
+     background-color: #357ae8;
+     background: -webkit-linear-gradient(top,#4d90fe,#357ae8);
+     border:1px solid #2f5bb7;
+}
+.language{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.753);
+    margin-top: 22px;
+}
+
+span{
+    color: #1a0dab;
+    padding: 0 3px;
+}
+span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  
+}
+footer{
+    height: 12.5vh;
+    background-color: #f2f2f2;
+    color: #70757a;
+    font-size: 14px;
+}
+.country{
+    padding: 15px 30px;
+    margin-bottom: 14px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    
+}
+
+.item{
+    padding: 13px;
+
+   
+}
+a{
+    
+    color: #70757a !important;
+}
+.footer-link{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 22px;
+    
+    
+}
+
+a{
+    text-decoration: none;
+   
+}
+a:hover{
+    text-decoration: underline;
+}
